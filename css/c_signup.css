@@ -1,0 +1,136 @@
+body{
+	position:none;
+	font-family:'Courier New', monospace;
+	 background: linear-gradient(70deg, rgb(248, 223, 86),orange);
+}
+form {
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input, select {
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.password-toggle {
+	cursor: pointer;
+	background-color: #000000;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+.password-toggle:hover {
+	background-color: rgb(184, 178, 178);
+	color:#000000;
+}
+
+input[type="submit"] {
+	background-color: #000000;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: rgb(184, 178, 178);
+	color:black;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	margin-top: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+.sticky-note {
+	background-color: #f8d7da;
+	color: #721c24;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #f5c6cb;
+	border-radius: 5px;
+}
+
+.password-toggle{
+	background-color: #F5F5DC;
+	color:black;
+	padding:10px;
+	border-radius: 10px;
+}
+.password-toggle:hover{
+	background-color: black;
+	color:#F5F5DC;
+}
+
+.checkbox-wrapper-22 .switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+
+  .checkbox-wrapper-22 .switch input {
+    display:none;
+  }
+
+  .checkbox-wrapper-22 .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+
+  .checkbox-wrapper-22 .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+
+  .checkbox-wrapper-22 input:checked + .slider {
+    background-color: #66bb6a;
+  }
+
+  .checkbox-wrapper-22 input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+  .checkbox-wrapper-22 .slider.round {
+    border-radius: 34px;
+  }
+
+  .checkbox-wrapper-22 .slider.round:before {
+    border-radius: 50%;
+  }

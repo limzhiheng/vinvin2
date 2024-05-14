@@ -1,0 +1,21 @@
+.quantity-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.quantity-button:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+}
+.remove-button {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+body{
+	background: linear-gradient(to right ,#68aef3, rgb(237, 181, 76));
+    font-family: 'Courier New', monospace;
+	
+	
+}
+h1{
+	color:orange;
+}
+h2{
+	font-size: 35px;
+}
+.cat {
+	border: 1.5px solid #ddd;
+	border-radius: 4px;
+	padding: 10px 5px;
+	width: 150px;
+	height:120px;
+	margin-right:25px;
+	text-align:center;
+  }
+
+  
+  .man_shoes{
+	border-right:5px;
+	border:5px solid black;
+	width:150px;
+	margin-top:5px;
+	padding:10px 35px;
+	height:350px;
+	margin-left:20px;
+	text-align:center;
+	border-radius: 50px 20px;
+}
+.man_shoes:hover{
+	background-color: #CCFFFF;
+	border-radius: 30px 45px 65px 85px;
+  -ms-transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0)
+}
+
+.woman_shoes{
+	border-right:5px;
+	border:5px solid black;
+	width:150px;
+	margin-top:-380px;
+	padding:10px 35px;
+	height:350px;
+	margin-left:270px;
+	text-align:center;
+	border-radius: 50px 20px;
+}
+.woman_shoes:hover{
+	background-color: #CCFFFF;
+	border-radius: 30px 45px 65px 85px;
+  -ms-transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0)
+}
+.kid_shoes{
+	border-right:5px;
+	border:5px solid black;
+	width:150px;
+	margin-top:-380px;
+	padding:10px 35px;
+	height:350px;
+	margin-left:520px;
+	text-align:center;
+	border-radius: 50px 20px;
+}
+.kid_shoes:hover{
+	background-color: #CCFFFF;
+	border-radius: 30px 45px 65px 85px;
+  -ms-transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0)
+}
+.shoes_bag{
+	border-right:5px;
+	border:5px solid black;
+	width:150px;
+	margin-top:-380px;
+	padding:10px 35px;
+	height:350px;
+	margin-left:768px;
+	text-align:center;
+	border-radius: 50px 20px;
+}
+.shoes_bag:hover{
+	background-color: #CCFFFF;
+	border-radius: 30px 45px 65px 85px;
+  -ms-transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0)
+}
+.box0 a{
+	text-decoration: none;
+	color:white;
+}
+.box0:hover{
+	color:#DEB887;
+  -ms-transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  transform: scale(1.25)
+}
+.link_product{
+	  display: flex; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+      align-items: flex-start; 
+      text-align: center; 
+    }
+.link_product img{
+	max-width: 100px; 
+      margin: 0 10px 10px 0; 
+}
+.add-to-cart-btn {
+	border:1px solid rgb(105, 95, 160);
+	background-color: rgb(105, 95, 160);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.add-to-cart-btn:hover{
+	background-color:white;
+	color:rgb(115, 109, 207);
+}
+.btn1{
+	background-color: black;
+	color: white;
+	border:none;
+}
+.btn1:hover{
+	background-color: white;
+	color:black;
+	border:10px 15px 20px 25px;
+}
+form{
+	font-size: 20px;
+}
+.zxc{
+	border-radius: 50px 100px;
+}
+.zxc:hover{
+	border:1.5px solid gray;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.column {
+	border: 1.5px solid #ccc;
+	box-sizing: border-box;
+}
+.column:hover{
+	border-radius: 50px;
+	border:1px solid black;
+	background-color: #CCCCFF;
+}
+.product-link {
+    text-decoration: none;
+    color: white;
+}
+.filter{
+	margin-left: 850px;	
+}
+.page{
+	border-radius: 10px;
+	text-align: center;
+	width:40px;
+	height:50px;
+	background-color: #CCCCFF;
+	color:firebrick ;
+}
+.page:hover{
+	background-color:rgb(163, 108, 108) ;
+	color:#CCCCFF
+}
+.search{
+	padding:10px;
+	border-radius: 15px;	
+}
+.search-btn{
+	padding:2.5px;
+	border-radius:10px;
+}
+.search-btn:hover{
+	background-color: #8c8cf8;
+}
+.search-container{
+	float: right;
+}
+.select{
+	color:rgb(250, 117, 117);
+	padding:3.5px;
+	border-radius: 45px;
+}
+.img{
+	background-color: white;
+	margin-top: 50px;
+	margin-left:30px;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+    
+#video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}

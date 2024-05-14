@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+	background: linear-gradient(to left, rgb(114, 114, 221), pink);
+}
+.table{
+    text-align: center;
+    border:1px solid black;
+    width:500px;
+    height:400px;
+}
+.word{
+    font-size: 20px;
+}
+.text{
+    padding:15px;
+}

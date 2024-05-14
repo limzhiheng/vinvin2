@@ -1,0 +1,81 @@
+body {
+	background: linear-gradient( silver, gray,dimgray);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+	margin-top:-150px;
+    max-width: 400px;
+}
+label {
+	display: block;
+    margin-bottom: 8px;
+}
+input, textarea {
+	width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+	background-color: #45a049;
+}
+.box1{
+	margin-bottom:-100px;
+	width:450px;
+	height:400px;
+}
+.box0{
+	margin-left:650px;
+}
+.facebook{
+	border-radius:10%;
+	width:100px;
+	height:auto;
+}
+.whatapps{
+	border-radius:10%;
+	width:100px;
+	height:auto;
+}
+.instagram{
+	border-radius:10%;
+	width:100px;
+	height:auto;
+}
+.footer{
+	text-align:center;
+	margin-bottom:150px;
+}
+.btn {
+	background-color: rgb(238, 164, 138);
+	color:white;
+
+}
+.btn:hover{
+	border-radius: 10px;
+	color:rgb(0, 0, 0);
+}
+
+.social{
+	text-decoration: none;
+    color:antiquewhite;
+}
+
+.social:hover{
+    font-size:18px;
+	text-decoration: none;
+    color:antiquewhite;
+}
+
+.box0{
+	text-align: center;
+}

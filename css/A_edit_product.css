@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{  
+    background: linear-gradient( #ffffff, 45%,rgb(219, 203, 203));
+}
+form{
+    color:rgba(100, 100, 223, 0.774);
+    text-align: center;
+    font-size: 25px;
+}
+.txtField {
+    width: 25%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+a.back {
+    display: inline-block;
+    background-color: #e74c3c; 
+    color: #ffffff; 
+    padding: 5px 10px; 
+    text-decoration: none;
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+a:hover {
+    background-color: #c0392b;
+}
+
+		

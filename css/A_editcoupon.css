@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+	background: linear-gradient(to left, rgb(114, 114, 221), pink);
+}
+.box2{
+    border:1px solid gray;
+    width:400px;
+    height:500px;
+}
+.txtField{
+    padding:10px;
+}
+.back{
+    text-decoration: none;
+}

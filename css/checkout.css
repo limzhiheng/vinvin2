@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to left, #597da1, rgb(100, 100, 179));
+    font-family: Microsoft JhengHei UI Light;
+    font-style: initial;
+}
+select{
+    background-color: rgb(68, 67, 67);
+    color:pink;
+}
+option{
+    background-color: white;
+    color:gray;
+}
+button{
+    background-color: rgb(0, 206, 206);
+    padding:10px;
+}
+button:hover{
+    color:rgb(0, 206, 206);
+    background-color: black;
+}
+input, textarea{
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+#paymentMethod {
+    text-align: center;
+    height: 30px;
+    width: 250px;
+}

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body{
+	background-color:#808080;
+}
+h1{
+	font-family:Eras Bold ITC;
+	color:pink;
+	text-align:center;
+}
+/* Apply styles to the submit button */
+.btn-primary {
+    background-color: #007BFF; /* Set the background color */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Set padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Hover effect */
+.btn-primary:hover {
+    background-color: #0056b3;	/* Change background color on hover */
+	border-radius:50%;
+}
+/* Apply styles to the reset button */
+input[type="reset"] {
+    background-color: #dc3545; /* Set the background color */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Set padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Hover effect */
+input[type="reset"]:hover {
+    background-color: #c82333; /* Change background color on hover */
+	border-radius:50%;
+}
+form {
+	font:center;
+	width: 1125px;
+	height:225px;
+    margin: 0 auto;
+}
+input{
+	color:#FE6D6D;
+}
+label{
+    font-size: 30px;
+}
+.text{
+    padding:10px 80px;
+}
+.password{
+    padding:10px;
+}
+.back{
+    text-decoration: none;
+}

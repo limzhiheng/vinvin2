@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9b9b9b;
+    margin: 20px;
+}
+
+h1, h2, p {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;    
+}
+.print{
+    background-color: black;
+	color: white;
+	border:none;
+    padding: 10px 20px;
+}
+.print:hover{
+    background-color: white;
+	color:black;
+	border:10px 15px 20px 25px;
+    border: 1px solid black;
+}
+.back{
+    background-color: black;
+	color: white;
+	border:none;
+    padding:10px 20px;
+}
+.back:hover{
+    background-color: white;
+	color:black;
+	border:10px 15px 20px 25px;
+    border:1px solid black;
+}
+.print-section{
+    background-color: #f0f0f0; 
+    padding: 2 px; 
+    border: 1px solid #ccc; 
+    width:auto;
+}
